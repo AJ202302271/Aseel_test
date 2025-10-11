@@ -40,3 +40,47 @@ h2 {
 }
 
 table {
+  width: 40%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+
+th, td {
+  border: 3px solid black;
+  padding: 10px;
+  
+}
+
+form {
+  text-align: center;
+  margin: 30px 0;
+}
+
+input, textarea {
+  width: 200px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-top: 5px;
+  font-size: 10px;
+  background-color: lightgrey;
+  border: 3px solid black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgrey;
+}
+
+footer {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 6px;
+  margin-top: 20px;
+}
